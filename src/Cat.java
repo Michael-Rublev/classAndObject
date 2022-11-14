@@ -1,12 +1,14 @@
-
-
 public class Cat {
     double weight;
     String name;
     int age;
     String color;
 
-    //Method class
+    public Cat() {
+
+    }
+
+    //Method class (old practics)
     void meow() {
         System.out.println("Meow");
     }
@@ -16,6 +18,16 @@ public class Cat {
     }
 
     void eat() {
-        weight += 50;
+        //to the active weight adds a value of 50
+        this.weight += 50;
+    }
+
+    public Cat(double weight, String name, int age, String color) {
+        this.weight = weight;
+        this.name = name;
+        this.age = age;
+        this.color = color;
+        System.out.println("New Cat created");
+
     }
 }
