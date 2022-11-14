@@ -5,7 +5,6 @@ public class Cat {
     String color;
 
     public Cat() {
-        this(3000, "Barsik", 1, "Red",);
     }
 
     //Method class (old practics)
