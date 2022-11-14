@@ -5,7 +5,7 @@ public class Cat {
     String color;
 
     public Cat() {
-
+        this(3000, "Barsik", 1, "Red",);
     }
 
     //Method class (old practics)
@@ -22,6 +22,7 @@ public class Cat {
         this.weight += 50;
     }
 
+    //Normal method
     public Cat(double weight, String name, int age, String color) {
         this.weight = weight;
         this.name = name;
